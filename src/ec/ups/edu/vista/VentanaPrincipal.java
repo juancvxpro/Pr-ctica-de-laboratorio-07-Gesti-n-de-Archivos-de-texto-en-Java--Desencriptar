@@ -126,7 +126,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLimpiarActionPerformed
     
     private void btnEncriptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEncriptarActionPerformed
-        areaDeTexto.setText(controladorEncriptar.encriptar(areaDeTexto.getText()));
+        areaDeTexto.setText(controladorEncriptar.Desencriptar(areaDeTexto.getText()));
     }//GEN-LAST:event_btnEncriptarActionPerformed
 
     /**

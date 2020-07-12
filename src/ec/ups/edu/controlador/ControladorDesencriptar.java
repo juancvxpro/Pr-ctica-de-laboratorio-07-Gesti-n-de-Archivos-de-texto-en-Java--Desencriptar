@@ -79,7 +79,7 @@ public class ControladorDesencriptar {
         map.put('0', 'a');
     }
 
-    public String encriptar(String cadena) {
+    public String Desencriptar(String cadena) {
         String encript = "";
         cargarLetras();
         cargarNumeros();
