@@ -70,7 +70,7 @@ public class ControladorDesencriptar {
    public void cargarNumeros() {
         map.put('1', 'v');
         map.put('2', '♦');
-        map.put('3', '♠');
+        map.put('3', 's');
         map.put('4', 'E');
         map.put('5', 'k');
         map.put('6', '@');
