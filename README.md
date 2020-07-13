@@ -12,7 +12,7 @@
 
 **1. Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 07: Gestión de Archivos de texto en Java”.**
 
-![screan del respositorio desencriptar](
+![screan del respositorio desencriptar](https://github.com/Paul-Guapucal/ssPractica07/blob/master/ssRepositorio2.jpg)
 
 **2. Desarrollar una aplicación que permita encriptar y desencriptar documentos de texto usando dos aplicaciones cliente.**
 
@@ -30,11 +30,11 @@
 
 [Clase VentanaPrincipal](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java--Desencriptar/blob/master/src/ec/ups/edu/vista/VentanaPrincipal.java)
 
-![Interfaz de la VentanaPrincipal](
+![Interfaz de la VentanaPrincipal](https://github.com/Paul-Guapucal/ssPractica07/blob/master/ssVentanaDesencriptar.jpg)
 
 **3. Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación desde principio a fin.**
 
-![Commits realizados en la Practica](
+![Commits realizados en la Practica](https://github.com/Paul-Guapucal/ssPractica07/blob/master/ssCommitDesencriptar.jpg)
 
 **Resultados obtenidos en la practica**
 
@@ -62,4 +62,4 @@
 
 **Firma de los estudiantes**
 
-![firma de los estudiante]
+![firma de los estudiante](https://github.com/Paul-Guapucal/ssPractica07/blob/master/ssFirmas.jpg)
