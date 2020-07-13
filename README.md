@@ -12,25 +12,23 @@
 
 **1. Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 07: Gestión de Archivos de texto en Java”.**
 
-![screan del respositorio encriptar](
-
 ![screan del respositorio desencriptar](
 
 **2. Desarrollar una aplicación que permita encriptar y desencriptar documentos de texto usando dos aplicaciones cliente.**
 
 *2.1 Paquetes de la practica*
 
-[Paquetes de la Practica](
+[Paquetes de la Practica](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java--Desencriptar/tree/master/src/ec/ups/edu)
 
 *2.1.1 Clase del paquete controlador*
 
-[Clase ControladorArchivos](
+[Clase ControladorArchivos](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java--Desencriptar/blob/master/src/ec/ups/edu/controlador/ControladorArchivo.java)
 
-[Clase ControladorEncriptar](
+[Clase ControladorDesencriptar](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java--Desencriptar/blob/master/src/ec/ups/edu/controlador/ControladorDesencriptar.java)
 
 *2.1.2 Clase del paquete vista*
 
-[Clase VentanaPrincipal](
+[Clase VentanaPrincipal](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java--Desencriptar/blob/master/src/ec/ups/edu/vista/VentanaPrincipal.java)
 
 ![Interfaz de la VentanaPrincipal](
 
@@ -59,6 +57,7 @@
 **Nombre de los estudiantes**
 
 *Paul Alexander Guapucal Cardenas*
+
 *Juan Jose Cordova Calle*
 
 **Firma de los estudiantes**
