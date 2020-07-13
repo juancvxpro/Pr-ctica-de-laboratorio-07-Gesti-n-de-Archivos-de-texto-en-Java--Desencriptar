@@ -7,6 +7,7 @@ package ec.ups.edu.vista;
 
 import ec.ups.edu.controlador.ControladorArchivo;
 import ec.ups.edu.controlador.ControladorDesencriptar;
+import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
 /**
@@ -144,9 +145,27 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLimpiarActionPerformed
     
     private void btnEncriptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEncriptarActionPerformed
-        areaDeTexto.setText(controladorEncriptar.Desencriptar(areaDeTexto.getText()));
+  String clave = JOptionPane.showInputDialog(this,"Ingrese contraseña");
+  if(validarClave(clave)){
+  areaDeTexto.setText(controladorEncriptar.Desencriptar(areaDeTexto.getText()));
+  }
+        
     }//GEN-LAST:event_btnEncriptarActionPerformed
-
+     
+    public boolean validarClave(String clave){
+        if(clave==null){
+        JOptionPane.showMessageDialog(this,"Campo vacio");
+        }else if (clave.length()!=8){
+        JOptionPane.showMessageDialog(this,"La clave debe contener 8 digitos");
+        }else if(clave.equals("Practica")){
+            return true;
+        
+        }else {
+         JOptionPane.showMessageDialog(this,"La clave esta incorrecta");
+        }
+        return false;
+    
+    }
     /**
      * @param args the command line arguments
      */
@@ -183,6 +202,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     public JTextArea getAreaDeTexto() {
         return areaDeTexto;
     }
+    
+  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea areaDeTexto;

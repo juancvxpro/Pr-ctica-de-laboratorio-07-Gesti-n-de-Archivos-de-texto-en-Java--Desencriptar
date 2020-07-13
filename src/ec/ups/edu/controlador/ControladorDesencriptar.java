@@ -7,6 +7,7 @@ public class ControladorDesencriptar {
 
     Map<Character, Character> map = new HashMap<>();
 
+
     public void cargarLetras() {
         map.put('a', '*');
         map.put('b', '$');
@@ -56,17 +57,17 @@ public class ControladorDesencriptar {
         map.put('Q', 'X');
         map.put('R', 'W');
         map.put('S', 'w');
-        map.put('T', 'v');
-        map.put('U', 'v');
+        map.put('T', 'J');
+        map.put('U', 'j');
         map.put('V', 'Ñ');
         map.put('W', 'g');
         map.put('X', 'G');
-        map.put('Y', 'f');
+        map.put('Y', 'p');
         map.put('Z', 'F');
 
     }
 
-    public void cargarNumeros() {
+   public void cargarNumeros() {
         map.put('1', 'v');
         map.put('2', '♦');
         map.put('3', '♠');
