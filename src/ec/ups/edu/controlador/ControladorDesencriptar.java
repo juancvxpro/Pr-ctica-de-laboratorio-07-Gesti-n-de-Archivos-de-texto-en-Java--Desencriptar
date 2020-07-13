@@ -62,7 +62,7 @@ public class ControladorDesencriptar {
         map.put('V', 'Ñ');
         map.put('W', 'g');
         map.put('X', 'G');
-        map.put('Y', 'p');
+        map.put('Y', 'P');
         map.put('Z', 'F');
 
     }
